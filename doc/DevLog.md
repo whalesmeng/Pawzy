@@ -330,4 +330,31 @@ Assets/
 
 ---
 
+## 2025-12-09 - 第三次更新：项目规范
+
+### 完成内容
+
+#### 添加项目宪法
+
+新增 `.specify/memory/constitution.md` - 项目宪法文件
+
+**核心原则：**
+
+| 原则 | 说明 |
+|------|------|
+| I. ChangeLog 优先 | 每次提交前必须更新 DevLog（不可违反） |
+| II. 代码质量 | 注释规范、命名规范、避免硬编码 |
+| III. 文档同步 | 功能变更必须同步更新文档 |
+
+**提交规范：**
+- 使用 `type: subject` 格式
+- 支持类型：feat/fix/docs/style/refactor/perf/test/chore
+
+**提交流程：**
+1. 完成代码修改
+2. 更新 `doc/DevLog.md`（必须）
+3. git add → commit → push
+
+---
+
 *最后更新：2025-12-09*
